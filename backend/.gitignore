@@ -1,0 +1,59 @@
+# Python-specific
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+.env/
+*.env
+*.venv
+
+# Package files
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Flask-specific
+instance/
+*.sqlite
+*.db
+*.bak
+.DS_Store
+*.pid
+
+# Flask cache or temporary files
+.cache/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.iml
+
+# Node.js-related (if React or other JS frontend is used)
+node_modules/
+dist/
+build/
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Secrets
+.env
+.secret_key
