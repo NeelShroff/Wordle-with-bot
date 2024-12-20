@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from ml_logic import Mediator, MachinePlayer
 
+
 from flask_cors import CORS
 
 app = Flask(__name__)
