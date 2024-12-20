@@ -131,7 +131,3 @@ def word_generate():
 
 
 
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
